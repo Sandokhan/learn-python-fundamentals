@@ -1,0 +1,24 @@
+{
+  "slides/chapter_1_welcome_to_python_fundamentals.md": [
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": -1
+      }
+    },
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 0,
+        "indexf": 0
+      }
+    },
+    {
+      "timing": 0,
+      "state": {
+        "indexh": 1
+      }
+    }
+  ]
+}
