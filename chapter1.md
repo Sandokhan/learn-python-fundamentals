@@ -9,5 +9,5 @@ description : You will learn python fundamentals
 b22a991dcada93b36e50672341a2a20a
 
 
---- type:VideoExercise lang:python xp:50 skills:2 key:890443c0f1 video_link: //vimeo.com/125848316
+--- type:VideoExercise lang:python xp:50 skills:2 key:890443c0f1 video_link: //player.vimeo.com/video/125848316
 ## Python in 5 minutes!
