@@ -10,4 +10,38 @@ b22a991dcada93b36e50672341a2a20a
 
 
 --- type:VideoExercise lang:python xp:50 skills:2 key:890443c0f1 video_link: //player.vimeo.com/video/125848316
-## Python in 5 minutes!
+## Short Python introduction
+
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:7d47c9d6aa
+## Hello World!
+
+
+*** =instructions
+Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).
+
+*** =hint
+Use the `print` method to print out `Hello World!`
+
+*** =pre_exercise_code
+```{python}
+
+```
+
+*** =sample_code
+```{python}
+# Print out Hello World!
+
+```
+
+*** =solution
+```{python}
+# Print the "Hello World!" to the shell
+print("Hello World!")
+```
+
+*** =sct
+```{python}
+test_output_contains("Hello World!")
+success_msg("Great job! Now onto the next thing!")
+```
