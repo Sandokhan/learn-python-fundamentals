@@ -192,3 +192,42 @@ test_mc(correct = 1,
         msgs = ["Way to go! Hip hip hurray!",
                 "Ah, seems I didn't really do a good job, did I?"])
 ```
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:7f9acbf25d
+## Working with imported data
+
+
+*** =instructions
+Often you will want to import data from csv files and create a list out of it so you can work with the data and shape it to your likings.
+Who knows maybe you will even want to save the changed data to the file.
+
+Behind the sceneces we have loaded a sample csv data set and assigned it to a variable named `csvdata`.
+Feel free to print the data to see how it looks. (don't be overwhelmed by amount of data we'v put in :))
+
+Your task is to print the
+
+*** =hint
+
+
+*** =pre_exercise_code
+```{python}
+import pandas as pd
+csvdata = pd.read_csv('https://s3.amazonaws.com/assets.datacamp.com/production/course_5485/datasets/FL_insurance_sample.csv', index_col = 0)
+```
+
+*** =sample_code
+```{python}
+# There is some data assigned to a variable csvdata see if you can print it out
+
+```
+
+*** =solution
+```{python}
+# There is some data assigned to a variable csvdata see if you can print it out
+print(csvdata)
+```
+
+*** =sct
+```{python}
+test_function("print")
+```
