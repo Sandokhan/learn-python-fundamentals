@@ -172,3 +172,23 @@ test_mc(correct = 3,
                 "Arrgs now even close, try once more!",
                 "Way to go lad!"])
 ```
+
+
+
+--- type:PlainMultipleChoiceExercise lang:python xp:50 skills:2 key:32c0f3f63c
+## Do you like Python?
+
+
+*** =instructions
+- Yes
+- No
+
+*** =hint
+You do like Python!
+
+*** =sct
+```{python}
+test_mc(correct = 1,
+        msgs = ["Way to go! Hip hip hurray!",
+                "Ah, seems I didn't really do a good job, did I?"])
+```
