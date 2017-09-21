@@ -1,9 +1,6 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
-
+title       : Python fundamentals
+description : You will learn python fundamentals
 
 --- type:VideoExercise lang:python xp:50 skills:2 key:116c4daea5
 ## Welcome to Python fundamentals
