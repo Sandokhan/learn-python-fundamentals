@@ -150,3 +150,25 @@ test_mc(correct = 2,
                 "Oh yes you are on fire!",
                 "Hm! Try to revisit the variables exercise!"])
 ```
+
+
+--- type:MultipleChoiceExercise lang:python xp:50 skills:2 key:efbe5d8717
+## Let's verify your new skills!
+
+How do we define a variable holding an array of Strings?
+
+*** =instructions
+- `mylist = [1,2,3]`
+- `mylist = ["1", 2, "3"]`
+- `mylist = ["a", "1", "c"]`
+
+*** =hint
+If you are not sure then go check the lists exercise :)
+
+*** =sct
+```{python}
+test_mc(correct = 3,
+        msgs = ["Huh close enough, try again!",
+                "Arrgs now even close, try once more!",
+                "Way to go lad!"])
+```
