@@ -86,3 +86,44 @@ print(myint)
 test_object("myint");
 test_output_contains("7", pattern = False, no_output_msg = "Was number 7 printed out?")
 ```
+
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:6d30662fe5
+## Lists
+
+
+*** =instructions
+Lists are very similar to arrays. They can contain any type such as strings, integeres or floats. Lists can also be iterated over in a very simple manner.
+
+Lists are defined by asigning a `[]` to a variable. An example would be:
+```{python}
+mylist = []
+```
+
+Try to define a list of numbers where numbers are `1, 2, 3, 4, 5`. Keep in mind that items in a list are comma separated.
+
+*** =hint
+Create a new variable with name `mylist` and assigning an `[]` (array) to it.
+Numbers should be within the square brackets.
+
+*** =pre_exercise_code
+```{python}
+
+```
+
+*** =sample_code
+```{python}
+# Create a list variable
+mylist = 
+```
+
+*** =solution
+```{python}
+mylist = [1,2,3,4,5]
+```
+
+*** =sct
+```{python}
+test_object("mylist", undefined_msg = "Make sure mylist variable has been defined", incorrect_msg = "mylist should have an array of numbers starting from 1 to 5")
+success_msg("Look at that, the list of awesomness!!!")
+```
