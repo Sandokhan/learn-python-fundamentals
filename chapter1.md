@@ -45,3 +45,44 @@ print("Hello World!")
 test_output_contains("Hello World!")
 success_msg("Great job! Now onto the next thing!")
 ```
+
+
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:dbf06a98db
+## Variables
+
+
+*** =instructions
+Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
+
+Let's try to define a `myint` variable which should hold number 7 and then use our `print` skills from the previous exercise to print the value out.
+
+*** =hint
+Declare `myint` variable and use `=` operator to assign a value to it.
+
+
+*** =pre_exercise_code
+```{python}
+
+```
+
+*** =sample_code
+```{python}
+# Assigning value to a variable is done by using the `=` equality operator
+myint = 
+
+# Print out the value of myint
+
+```
+
+*** =solution
+```{python}
+myint = 7
+print(myint)
+```
+
+*** =sct
+```{python}
+test_object("myint");
+test_output_contains("7", pattern = False, no_output_msg = "Was number 7 printed out?")
+```
