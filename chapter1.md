@@ -127,3 +127,26 @@ mylist = [1,2,3,4,5]
 test_object("mylist", undefined_msg = "Make sure mylist variable has been defined", incorrect_msg = "mylist should have an array of numbers starting from 1 to 5")
 success_msg("Look at that, the list of awesomness!!!")
 ```
+
+
+
+--- type:MultipleChoiceExercise lang:python xp:50 skills:2 key:14b680a8b0
+## Let's verify our new skills!
+
+How do we define a new variable?
+
+*** =instructions
+- `new_variable(1)`
+- `new_variable = 1`
+- `new_variable / 1`
+
+*** =hint
+If you cannot remember then try to check the Variables exercise :)
+
+*** =sct
+```{python}
+test_mc(correct = 2, 
+        msgs = ["Arrrgh close enough! Try to revisit the variables exercise!",
+                "Oh yes you are on fire!",
+                "Hm! Try to revisit the variables exercise!"])
+```
