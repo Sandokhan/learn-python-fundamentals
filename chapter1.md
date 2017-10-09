@@ -36,7 +36,7 @@ Use the `print` method to print out `Hello World!`
 
 *** =solution
 ```{python}
-# Print the "Hello World!" to the shella
+# Print the "Hello World!" to the shell
 print("Hello World!")
 ```
 
@@ -53,7 +53,7 @@ success_msg("Great job! Now onto the next thing!")
 
 
 *** =instructions
-Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
+Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object. tipoa
 
 Let's try to define a `myint` variable which should hold number 7 and then use our `print` skills from the previous exercise to print the value out.
 
