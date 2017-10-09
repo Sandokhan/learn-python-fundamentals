@@ -36,7 +36,7 @@ Use the `print` method to print out `Hello World!`
 
 *** =solution
 ```{python}
-# Print the "Hello World!" to the shell
+# Print the "Hello World!" to the shella
 print("Hello World!")
 ```
 
@@ -93,9 +93,9 @@ test_output_contains("7", pattern = False, no_output_msg = "Was number 7 printed
 
 
 *** =instructions
-Lists are very similar to arrays. They can contain any type such as strings, integeres or floats. Lists can also be iterated over in a very simple manner.
+Lists are very similar to arrays. They can contain any type such as strings, integers or floats. Lists can also be iterated over in a very simple manner.
 
-Lists are defined by asigning a `[]` to a variable. An example would be:
+Lists are defined by signing a `[]` to a variable. An example would be:
 ```{python}
 mylist = []
 ```
@@ -201,8 +201,8 @@ test_mc(correct = 1,
 Often you will want to import data from csv files and create a list out of it so you can work with the data and shape it to your likings.
 Who knows maybe you will even want to save the changed data to the file.
 
-Behind the sceneces we have loaded a sample csv data set and assigned it to a variable named `csvdata`.
-Feel free to print the data to see how it looks. (don't be overwhelmed by amount of data we'v put in :))
+Behind the scenes we have loaded a sample csv data set and assigned it to a variable named `csvdata`.
+Feel free to print the data to see how it looks. (don't be overwhelmed by amount of data we've put in :))
 
 Your task is to print the
 
